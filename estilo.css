@@ -1,0 +1,70 @@
+body, ul, h1, h2, h3, h4, h5, h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    margin: 1em 0;
+}
+#header{
+    background: url(images/bg.jpeg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+.navbar img{ max-width: 200px;}
+.clearfix{clear: both;}
+.navbar a, .navbar a:hover, .navbar a:link, .navbar a:active, .navbar a:visited{
+    color: grey;
+    background: transparent!important;
+    cursor: pointer;
+}
+
+p#titulo{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 0.15em
+}
+
+p#leyenda{
+    font-size: 14px;
+    padding: 15px 0 35px 0
+}
+
+#bottom{
+  /*  background: rgb(250, 250, 250);*/
+    border: 1px solid rgb(215, 215, 215);
+    border-width: 1px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#bottom p {
+    font-size: 14px
+}
+
+#contacto {padding-top: 3em; padding-bottom: 2.5em}
+#contacto .data-contacto {margin: 0 auto; width: fit-content;}
+#contacto .data-contacto > div{
+  display: table-cell;
+  width: fit-content;
+}
+#contacto .data-contacto div:first-child{padding-right: 55px;}
+#contacto input{
+  border-radius: 5px;
+  font-size: 14px
+}
+#contacto input[type="email"]{
+  padding-left: 0.7em
+}
+
+#footer{
+    padding: 25px 0;
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
