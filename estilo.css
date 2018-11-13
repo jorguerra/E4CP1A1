@@ -67,4 +67,5 @@ p#leyenda{
     color: rgb(255, 255, 255);
     font-size: 18px;
     letter-spacing: 2px;
+    margin:0;
 }
